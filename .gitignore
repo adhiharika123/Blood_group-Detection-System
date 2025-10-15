@@ -1,12 +1,29 @@
 # Node.js
 node_modules/
 frontend/node_modules/
+frontend/build/
 
 # Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.h5
+*.tflite
 
-# General
-.DS_Store
+# Environment files
 .env
+
+# macOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Misc
+__MACOSX/
