@@ -3,6 +3,8 @@ node_modules/
 frontend/node_modules/
 frontend/build/
 
+backend/models/*.h5
+
 # Python
 venv/
 __pycache__/
@@ -11,6 +13,9 @@ __pycache__/
 *.pyd
 *.h5
 *.tflite
+
+
+
 
 # Environment files
 .env
